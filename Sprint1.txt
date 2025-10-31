@@ -1,0 +1,43 @@
+Project Title: Melody Match
+Team Name/Number: 11
+Sprint Number: 1
+Sprint Duration: 3 Weeks
+Team Members and Roles: Julia Pitz - Team Lead, Robert Walaitis - Developer, Abby Williams Documentation Lead
+
+1. Sprint Overview
+Objective:
+The Main Goal of this sprint is to complete the set up for the project.
+
+Focus Areas:
+- GitHub
+- Jira
+- Initial Implementation
+
+2. Work Completed
+- GitHub is set up
+- Jira is set up
+- Github has files organised
+- 2 Screens are implemented
+
+3. Tools and Technologies Used
+- GitHub
+- Jira
+- Python
+- MySQL
+
+4. Challenges and Solutions
+
+Challenge: ____________________________________________
+Solution: ______________________________________________
+
+5. Reflection and Learning
+Summarize what the team learned or improved during this sprint:
+
+6. Plans for Next Sprint
+State upcoming goals or focus areas for the next sprint:
+
+7. Repository and Documentation
+GitHub Repository Link: https://github.com/RobertWalaitis/MST_4090_Group_11_Project_Melody_Match
+JIRA Link: https://4090melodymatch.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog
+Prepared by: Group 11
+Date: 10/31/2025
