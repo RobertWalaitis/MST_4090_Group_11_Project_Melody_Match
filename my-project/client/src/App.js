@@ -1,22 +1,16 @@
-import React, { useEffect, useState } from "react";
-import { getUsers } from "./api";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import TextPage from "./pages/TextPage";
 
 function App() {
-  const [users, setUsers] = useState([]);
-
-  useEffect(() => {
-    getUsers().then(setUsers).catch(console.error);
-  }, []);
-
   return (
-    <div style={{ padding: "2rem" }}>
-      <h1>My React + Node + MySQL App</h1>
-      <ul>
-        {users.map((u) => (
-          <li key={u.id}>{u.name}</li>
-        ))}
-      </ul>
-    </div>
+    <Router basename={process.env.PUBLIC_URL}>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/text" element={<TextPage />} />
+      </Routes>
+    </Router>
   );
 }
 

@@ -2,7 +2,7 @@
   "name": "client",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://<your-username>.github.io/<repo-name>/",
+  "homepage": "https://RobertWalaitis.github.io/MST_4090_Group_11_Project_Melody_Match/",
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
